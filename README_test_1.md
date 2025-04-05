@@ -5,7 +5,7 @@ This project focuses on the development of a Layout Organization Recognition mod
 
 ## Strategy
 
-The pipeline is structured in several stages to prepare a reliable dataset for training and evaluation:
+The pipeline is designed in multiple stages to generate a reliable dataset of main-text word images, which can be used to train an optical character recognition (OCR) model.
 
 ### 1. PDF Organization and Extraction
 - All `.pdf` files are grouped into a central folder.

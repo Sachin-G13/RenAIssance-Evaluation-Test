@@ -82,7 +82,6 @@ Future enhancements can focus on:
 - **Improving OCR Accuracy**: Incorporating a custom-trained OCR model to better handle non-ASCII characters such as "ñ", and reduce transcription errors.
 - **Expanding Language Support**: Adapting the pipeline for multilingual document recognition.
 - **Integrating Learning-Based Components**: Embedding self-supervised or transformer-based models to further automate and generalize layout understanding across diverse document formats.
-- **Full-Page Region Segmentation**: Evolving from word-level isolation to broader region-level segmentation of paragraphs, columns, and headers using spatial clustering or learning-based region proposals.
 
 
 ## Results and Insights

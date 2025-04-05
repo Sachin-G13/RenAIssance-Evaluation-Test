@@ -69,8 +69,6 @@ The evaluation includes supporting diagnostics to ensure reliability:
 - **Unmatched Predictions**: Highlights words for which no corresponding transcript match was found.
 - **Duplicate Assignments**: Ensures each transcript word is used only once during filename correction.
 
-This evaluation not only tests OCR performance but also validates that the model’s input data—cropped word images—are representative of the actual main text, making it a critical step before training the layout recognition model.
-
 ## Next Steps
 
 This project presents a complete pipeline that functions as a **Layout Organization Recognition model** by detecting and isolating the main text regions from scanned documents, effectively disregarding embellishments and peripheral content.

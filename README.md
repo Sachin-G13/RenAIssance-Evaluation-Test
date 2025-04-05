@@ -1,7 +1,7 @@
 # Specific Test I. Layout Organization Recognition
 
 ## Project Overview  
-This project aims to build a preprocessing pipeline to aid the development of a model (e.g., CNN-RNN, Transformer, or Self-Supervised architecture) for optical layout recognition in scanned documents. The primary objective is to detect and isolate main text regions from scanned pages while ignoring embellishments such as logos, page numbers, or decorative borders.
+This project focuses on the development of a Layout Organization Recognition model aimed at analyzing scanned pages and identifying the main text regions while ignoring non-informative elements such as page numbers, logos, and decorative embellishments. 
 
 ## Strategy
 

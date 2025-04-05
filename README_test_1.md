@@ -3,8 +3,6 @@
 ## Project Overview  
 This project focuses on the development of a Layout Organization Recognition model aimed at analyzing scanned pages and identifying the main text regions while ignoring non-informative elements such as page numbers, logos, and decorative embellishments. 
 
-To support this goal, we have built a comprehensive preprocessing pipeline that extracts, filters, and prepares high-quality word-level image data aligned with ground truth transcripts. This structured dataset enables training of deep learning architectures—including convolutional-recurrent networks, transformers, or self-supervised models—for accurate layout segmentation and recognition.
-
 ## Strategy
 
 The pipeline is structured in several stages to prepare a reliable dataset for training and evaluation:

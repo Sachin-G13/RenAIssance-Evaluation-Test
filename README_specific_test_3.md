@@ -11,7 +11,7 @@ Design a generative model to produce realistic Renaissance-era printed Spanish t
 
 ---
 
-## 📂 Dataset Preparation
+##  Dataset Preparation
 
 1. **Character Collection**  
    - Manually cropped character images of uppercase (A–Z) and lowercase (a–z) letters  
@@ -28,7 +28,7 @@ Design a generative model to produce realistic Renaissance-era printed Spanish t
 
 ---
 
-## 🧠 Model: Conditional GAN
+##  Model: Conditional GAN
 
 ### Generator
 - Inputs: Random noise (z=100) + label embedding  
@@ -42,7 +42,7 @@ Design a generative model to produce realistic Renaissance-era printed Spanish t
 
 ---
 
-## 🖋️ Word Image Synthesis Pipeline
+##  Word Image Synthesis Pipeline
 
 1. **Historical Transcript Parsing**  
    - `.docx` with 17th-century Spanish text  
@@ -69,7 +69,7 @@ Design a generative model to produce realistic Renaissance-era printed Spanish t
 
 ---
 
-## 🖼️ Sample Visual Comparisons
+## Sample Visual Comparisons
 
 Each comparison includes Mean Squared Error (MSE) and Structural Similarity Index (SSIM) to evaluate output fidelity.
 
@@ -131,15 +131,5 @@ Final Global Average - MSE: 0.1423, SSIM: 0.4811
 - **Enhance character variability**: Add random kerning, baseline jitter, and font-style variations to simulate older typeset irregularities.
 - **Improved OCR through GAN training**: Leverage synthetic character and word images to train **custom OCR models**, especially for historical or degraded documents. This is particularly valuable for supporting **non-ASCII characters** (e.g., `ñ`, `á`, `é`) which are often misrecognized or skipped by standard OCR engines like Tesseract.
 - **Metric-based OCR feedback**: Integrate OCR confidence scores as a soft evaluation signal in the loss or post-processing stages.
-
----
-
-## 👤 Author
-
-**Submitted for:**  
-**Specific Test III — Synthetic Renaissance Text Generation with Generative Models**
-
-Department of [Your Dept]  
-[Your Institution] — 2025
 
 ---

@@ -126,9 +126,7 @@ Final Global Average - MSE: 0.1423, SSIM: 0.4811
 
 ## 🚀 Future Work
 
-- **Train on degraded character sets**: Incorporate naturally degraded or synthetically smudged characters to improve ink-bleed, fade, and smudge realism.
 - **Use advanced generative models**: Explore diffusion models or transformer-based generators to synthesize fine-grained texture details.
-- **Enhance character variability**: Add random kerning, baseline jitter, and font-style variations to simulate older typeset irregularities.
 - **GAN-generated data for OCR training**: Leverage synthetic character and word images to train **custom OCR models**, especially for historical or degraded documents where existing OCR tools underperform.
 - **Multilingual and special character support**: Improve dataset coverage and training to include **non-ASCII characters** (e.g., `ñ`, `á`, `é`). This is essential as standard OCR engines like Tesseract fail to recognize these reliably, leading to skipped or misclassified words during evaluation.
 

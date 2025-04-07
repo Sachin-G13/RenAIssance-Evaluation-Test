@@ -131,7 +131,6 @@ Final Global Average - MSE: 0.1423, SSIM: 0.4811
 - **Enhance character variability**: Add random kerning, baseline jitter, and font-style variations to simulate older typeset irregularities.
 - **GAN-generated data for OCR training**: Leverage synthetic character and word images to train **custom OCR models**, especially for historical or degraded documents where existing OCR tools underperform.
 - **Multilingual and special character support**: Improve dataset coverage and training to include **non-ASCII characters** (e.g., `ñ`, `á`, `é`). This is essential as standard OCR engines like Tesseract fail to recognize these reliably, leading to skipped or misclassified words during evaluation.
-- **Metric-based OCR feedback**: Integrate OCR confidence scores as a soft evaluation signal in the loss or post-processing stages.
 
 ---
 

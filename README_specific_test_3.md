@@ -42,7 +42,7 @@ Design a generative model to produce realistic Renaissance-era printed Spanish t
 
 ---
 
-## 🖋️ Word Image Synthesis Pipeline
+## Word Image Synthesis Pipeline
 
 1. **Historical Transcript Parsing**  
    - `.docx` with 17th-century Spanish text  
